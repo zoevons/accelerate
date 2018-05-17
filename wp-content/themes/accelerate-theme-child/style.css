@@ -1,0 +1,186 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Your Name!
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+#masthead {
+  background: none repeat scroll 0 0 #45ac9d;
+}
+
+#masthead nav ul li {
+  float: left;
+  margin: 0 10px;
+}
+
+/* HOMEPAGE STYLES */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+
+.button {
+  	background: #45ac9d;
+
+}
+
+#primary {
+  margin: 0;
+}
+
+figure, img {
+  padding: 2px;
+}
+
+h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.individual-featured-work {
+  display: inline-block;
+  padding: 5px;
+}
+
+li h3 {
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  color: #808080;
+}
+
+ul.home-featured-work {
+  display: flex;
+}
+
+
+/* Blog Post */
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+  margin-left: 30px;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+    text-align: left;
+}
+
+.blog-post h3 {
+	font-size: 1.5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* Case Studies */
+article.case-study {
+  margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+  float: left;
+  width: 350px;
+  margin: 0 40px 0 0;
+}
+
+div.case-study-images {
+  float: left;
+  width: 550px;
+}
+
+div.case-study-images img {
+  margin-bottom: 50px;
+  border: 1px solid #dddddd;
+}
+
+/* Archive Case Studies */
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
+#primary-2 {
+  margin: auto;
+}
+
+.archive-header {
+  text-align: left;
+  text-transform: none;
+  font-size: 16px;
+  margin-top: -5px;
+  color: #808080;
+}
+
+.archive-paragraph {
+  padding-top: 15px;
+}
+
+p a {
+  color: #45ac9d;
+}
+
+/* Social Media Nav */
+ul.social-media-menu {
+  list-style: none;
+}
+
+ul.social-media-menu li {
+  display: inline;
+  padding: 8px;
+}
+/* Use this is make them round (but got stuck)
+
+.icon-twitter, .icon-facebook, .icon-linkedin {
+  background-color: black;
+  border-radius: 50%;
+  font-size: 18px;
+  color: white;
+  padding: 6px;
+}
+*/
+
+/* Contact Page */
+div.main-content {
+  margin-left: 250px;
+}
+
+#nf-field-1-container {
+	width: 47%;
+	min-width: 220px;
+	height: 35px;
+	float: left;
+
+  margin-bottom: 20px;
+}
+
+#nf-field-2-container {
+	width: 47%;
+	min-width: 220px;
+	height: 35px;
+	display: inline-block;
+  margin-left: 40px;
+}
+
+#nf-field-3-wrap {
+  margin-top: 40px;
+}
+
+#nf-field-4 {
+  background-color: #45ac9d;
+  float: right;
+}
