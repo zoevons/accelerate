@@ -184,3 +184,36 @@ div.main-content {
   background-color: #45ac9d;
   float: right;
 }
+
+/* ABOUT PAGE */
+h3.blurb {
+  font-size: 25px;
+  line-height:35px;
+}
+
+h4.our-services-header {
+  font-size: 15px;
+}
+
+p.what-we-do {
+  font-size: 20px;
+  text-align: center;
+}
+
+h4.header-about {
+  font-size: 25px;
+}
+
+div.service-1, div.service-3 {
+  float: right;
+}
+
+div.work-with-us {
+  margin-right: 45px;
+  font-size: 18px;
+  padding: 40px;
+}
+
+a.button {
+  margin-left: 25px;
+}

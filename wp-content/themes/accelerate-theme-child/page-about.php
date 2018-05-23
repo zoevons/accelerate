@@ -41,12 +41,12 @@ get_header(); ?>
 					$size ="full"; ?>
 
 			<div class="service-section">
-				<h4>Our Services</h4>
-				<p>We take pride in our clients and the content we create for them.<br>Here's a brief overview of our offered services</p>
+				<h4 class="our-services-header">Our Services</h4>
+				<p class="what-we-do">We take pride in our clients and the content we create for them.<br>Here's a brief overview of our offered services</p>
 			</div>
 
 			<div class="service-1">
-			  <h4><?php echo $services_1; ?></h4>
+			  <h4 class="header-about"><?php echo $services_1; ?></h4>
 				<p><?php echo $description_1; ?></p>
 				<?php if ($icon_1) {
 					echo wp_get_attachment_image( $icon_1, $size );
@@ -54,18 +54,27 @@ get_header(); ?>
 			</div>
 
 			<div class="service-2">
-			  <h4><?php echo $services_2; ?></h4>
+			  <h4 class="header-about"><?php echo $services_2; ?></h4>
 				<p><?php echo $description_2; ?></p>
+				<?php if ($icon_2) {
+					echo wp_get_attachment_image( $icon_2, $size );
+				} ?>
 			</div>
 
 			<div class="service-3">
-			  <h4><?php echo $services_3; ?></h4>
+			  <h4 class="header-about"><?php echo $services_3; ?></h4>
 				<p><?php echo $description_3; ?></p>
+				<?php if ($icon_3) {
+					echo wp_get_attachment_image( $icon_3, $size );
+				} ?>
 			</div>
 
 			<div class="service-4">
-			  <h4><?php echo $services_4; ?></h4>
+			  <h4 class="header-about"><?php echo $services_4; ?></h4>
 				<p><?php echo $description_4; ?></p>
+				<?php if ($icon_4) {
+					echo wp_get_attachment_image( $icon_4, $size );
+				} ?>
 			</div>
 
 				<?php the_content(); ?>
