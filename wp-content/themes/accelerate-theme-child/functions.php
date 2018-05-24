@@ -52,7 +52,7 @@ add_filter( 'body_class','accelerate_body_classes' );
 function accelerate_body_classes( $classes ) {
 
  if ( is_page( 'contact' ) ) {
-   $classes[] = 'contact-page';
+   $classes[] = 'contact-us';
  }
 
    return $classes;

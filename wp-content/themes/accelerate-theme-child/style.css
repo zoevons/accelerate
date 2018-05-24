@@ -29,10 +29,6 @@ Text Domain:  accelerate-theme-child
 
 }
 
-#primary {
-  margin: 0;
-}
-
 figure, img {
   padding: 2px;
 }
@@ -181,10 +177,15 @@ ul.social-media-menu li {
 */
 
 /* Contact Page */
+.contact-us .site-content {
+  max-width: 650px;
+  margin: 0 auto;
+}
 
 .nf-form-content{
 	width: 620px;
-  margin-left: 300px;
+  margin-left: 160px;
+  margin-top: 30px;
 }
 
 #nf-field-1-container {
@@ -196,7 +197,7 @@ ul.social-media-menu li {
 }
 
 #nf-field-2-container {
-	width: 45%;
+	width: 46%;
 	min-width: 225px;
 	height: 35px;
 	display: inline-block;
