@@ -48,6 +48,8 @@ get_header(); ?>
 			<div class="service-1">
 			  <h4 class="header-about"><?php echo $services_1; ?></h4>
 				<p><?php echo $description_1; ?></p>
+			</div>
+			<div class="first-icon">
 				<?php if ($icon_1) {
 					echo wp_get_attachment_image( $icon_1, $size );
 				} ?>
@@ -56,6 +58,8 @@ get_header(); ?>
 			<div class="service-2">
 			  <h4 class="header-about"><?php echo $services_2; ?></h4>
 				<p><?php echo $description_2; ?></p>
+			</div>
+			<div class="second-icon">
 				<?php if ($icon_2) {
 					echo wp_get_attachment_image( $icon_2, $size );
 				} ?>
@@ -64,6 +68,8 @@ get_header(); ?>
 			<div class="service-3">
 			  <h4 class="header-about"><?php echo $services_3; ?></h4>
 				<p><?php echo $description_3; ?></p>
+			</div>
+			<div class="third-icon">
 				<?php if ($icon_3) {
 					echo wp_get_attachment_image( $icon_3, $size );
 				} ?>
@@ -72,6 +78,8 @@ get_header(); ?>
 			<div class="service-4">
 			  <h4 class="header-about"><?php echo $services_4; ?></h4>
 				<p><?php echo $description_4; ?></p>
+			</div>
+			<div class="fourth-icon">
 				<?php if ($icon_4) {
 					echo wp_get_attachment_image( $icon_4, $size );
 				} ?>

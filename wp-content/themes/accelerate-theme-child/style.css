@@ -59,6 +59,29 @@ ul.home-featured-work {
   display: flex;
 }
 
+.twitter-sidebar{
+	float: right;
+	width: 30%;
+  margin: -410px 40px 0 0;
+}
+.tweets{
+	list-style: none;
+}
+
+ul.tweets {
+  margin-left: -40px;
+  margin-right: 20px;
+}
+.widget-title{
+	  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 25px 30px 50px -40px;
+}
+
+#more-tweets {
+  margin-left: -40px;
+}
 
 /* Blog Post */
 .blog-post {
@@ -87,6 +110,9 @@ ul.home-featured-work {
 	text-transform: uppercase;
 }
 
+input[type="button"], input[type="submit"] {
+  background: #45ac9d;
+}
 /* Case Studies */
 article.case-study {
   margin: 40px 0 0;
@@ -155,25 +181,26 @@ ul.social-media-menu li {
 */
 
 /* Contact Page */
-div.main-content {
-  margin-left: 250px;
+
+.nf-form-content{
+	width: 620px;
+  margin-left: 300px;
 }
 
 #nf-field-1-container {
-	width: 47%;
-	min-width: 220px;
+	width: 45%;
+	min-width: 225px;
 	height: 35px;
 	float: left;
-
   margin-bottom: 20px;
 }
 
 #nf-field-2-container {
-	width: 47%;
-	min-width: 220px;
+	width: 45%;
+	min-width: 225px;
 	height: 35px;
 	display: inline-block;
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 #nf-field-3-wrap {
@@ -189,10 +216,12 @@ div.main-content {
 h3.blurb {
   font-size: 25px;
   line-height:35px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h4.our-services-header {
   font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p.what-we-do {
@@ -202,18 +231,93 @@ p.what-we-do {
 
 h4.header-about {
   font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
-div.service-1, div.service-3 {
+.service-1, .service-3 {
+  width: 60%;
   float: right;
+}
+
+.service-1 {
+  margin-right: 50px;
+}
+
+.service-2 {
+  margin-left: 80px;
+}
+
+.first-icon {
+  width: 30%;
+  margin: 80px 0 20px 80px;
+}
+
+.service-2, .service-4 {
+  width: 60%;
+  float: left;
+}
+
+.second-icon {
+  width: 30%;
+  float: right;
+  margin: 50px -80px 20px 0;
+}
+
+.service-3 {
+  margin: 40px -250px 30px 0;
+}
+
+.third-icon {
+  width: 30%;
+  margin-left: 80px;
+}
+
+.service-4 {
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+.fourth-icon {
+  width: 30%;
+  float: right;
+  margin: 50px -80px 20px 0;
+}
+
+h4.header-about {
+  text-align: left;
 }
 
 div.work-with-us {
   margin-right: 45px;
   font-size: 18px;
   padding: 40px;
+  font-weight: bold;
 }
 
 a.button {
   margin-left: 25px;
+}
+
+/* 404 PAGE */
+.hello  {
+  font-size: 36px;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+h4.back {
+  font-size: 18px;
+  text-align: left;
+  text-transform: none;
+  margin-left: 150px;
+  padding-bottom: 30px;
+}
+
+img.adele {
+  float: right;
+  margin: -220px 130px 30px 20px;
+
+}
+#adele-button {
+  margin-left: 150px;
 }
