@@ -51,7 +51,7 @@ add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
 add_filter( 'body_class','accelerate_body_classes' );
 function accelerate_body_classes( $classes ) {
 
- if ( is_page( 'contact' ) ) {
+ if ( is_page( 'contact-us' ) ) {
    $classes[] = 'contact-us';
  }
 

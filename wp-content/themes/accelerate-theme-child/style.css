@@ -184,7 +184,6 @@ ul.social-media-menu li {
 
 .nf-form-content{
 	width: 620px;
-  margin-left: 160px;
   margin-top: 30px;
 }
 
@@ -309,7 +308,7 @@ aside.second-description {
 }
 
 aside.second-icon {
-  width: 35%;
+  margin: 40px 60px 20px 0;
   float: right;
 }
 
@@ -326,6 +325,7 @@ aside.third-description {
 
 aside.third-icon {
   width: 35%;
+  margin: 50px 0 20px 80px;
 }
 
 aside.fourth-description {
@@ -335,8 +335,12 @@ aside.fourth-description {
 }
 
 aside.fourth-icon {
-  width: 35%;
+  margin: 40px 60px 20px 0;
   float: right;
+}
+
+div.service-4 {
+  margin-bottom: 50px;
 }
 
 h4.header-about {
