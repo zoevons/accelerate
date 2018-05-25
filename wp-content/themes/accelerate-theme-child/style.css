@@ -235,10 +235,12 @@ h4.header-about {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
+/*
 
 .service-1, .service-3 {
   width: 60%;
   float: right;
+  overflow: auto;
 }
 
 .service-1 {
@@ -257,6 +259,7 @@ h4.header-about {
 .service-2, .service-4 {
   width: 60%;
   float: left;
+  overflow: auto;
 }
 
 .second-icon {
@@ -282,6 +285,58 @@ h4.header-about {
   width: 30%;
   float: right;
   margin: 50px -80px 20px 0;
+}
+
+h4.header-about {
+  text-align: left;
+}
+*/
+aside.first-description {
+  width: 65%;
+  float: right;
+  margin-right: 60px;
+}
+
+aside.first-icon {
+  width: 35%;
+  margin: 40px 0 20px 80px;
+}
+
+aside.second-description {
+  width: 65%;
+  float: left;
+  margin-left: 80px;
+}
+
+aside.second-icon {
+  width: 35%;
+  float: right;
+}
+
+div.service-1, div.service-2,
+div.service-3, div.service-4 {
+  overflow: auto;
+}
+
+aside.third-description {
+  width: 65%;
+  float: right;
+  margin-right: 60px;
+}
+
+aside.third-icon {
+  width: 35%;
+}
+
+aside.fourth-description {
+  width: 65%;
+  float: left;
+  margin-left: 80px;
+}
+
+aside.fourth-icon {
+  width: 35%;
+  float: right;
 }
 
 h4.header-about {
